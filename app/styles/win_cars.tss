@@ -1,0 +1,19 @@
+"#imgCar":{
+   width: 80,
+   height: 80,
+   borderRadius: 5,
+   left: 5
+}
+
+"View":{
+   height: 100
+}
+
+"Label":{
+   left: 5
+}
+
+/******** TEMPLATE *********/
+"#templateDefault":{
+	height:100,
+}

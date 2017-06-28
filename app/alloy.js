@@ -1,0 +1,3 @@
+SANDBOX = {
+	rootNavBar : null
+};

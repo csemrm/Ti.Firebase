@@ -1,0 +1,32 @@
+"#firebaseLogo":{
+	image: 'firebaseLogo.png',
+	width: 80,
+	height: 80,
+	top:20
+}
+
+"#email": {
+	hintText: 'Email',
+	keyboardType: Ti.UI.KEYBOARD_TYPE_EMAIL,
+	top:120
+}
+
+"#password": {
+	passwordMask: true,
+	hintText: 'Password',
+	returnKeyType: Ti.UI.RETURNKEY_DONE,
+	top:190
+}
+
+"#btnLogin":{
+	height: 50,
+	top: 260
+}
+
+"#darkOverlay": {
+	left: 0,
+	top: 0,
+	backgroundColor: 'rgba(0, 0, 0, 0.6)',
+	visible: false,
+	zIndex: 9999
+}

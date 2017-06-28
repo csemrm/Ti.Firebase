@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.loopmodules.firebase</id>
+  <name>Firebase</name>
+  <version>1.0</version>
+  <publisher>not specified</publisher>
+  <url>unspecified</url>
+  <description>not specified</description>
+  <copyright>not specified</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>YOUR_GUID_HERE</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <use-jscore-framework>true</use-jscore-framework>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleLightContent</string>
+        <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <string>com.googleusercontent.apps.84005053145-j5buresnjj8pjgrib1bobt79vsipkj56</string>
+            </array>
+          </dict>
+        </array>
+      </dict>
+    </plist>
+  </ios>
+  <android
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+      <module platform="android">hyperloop</module>
+      <module platform="iphone">hyperloop</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">false</target>
+      <target device="ipad">true</target>
+      <target device="iphone">true</target>
+      <target device="mobileweb">false</target>
+      <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>6.0.1.GA</sdk-version>
+    <plugins>
+      <plugin version="1.0">ti.alloy</plugin>
+      <plugin>hyperloop</plugin>
+    </plugins>
+  </ti:app>

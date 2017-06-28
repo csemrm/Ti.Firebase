@@ -1,0 +1,13 @@
+"#txtbrand":{
+   top: '20%',
+   hintText: 'brand'
+}
+
+"#txtDescription":{
+   top: 10,
+   hintText: 'Description'
+}
+
+"#btnSubmit":{
+   top:20
+}

@@ -1,0 +1,13 @@
+<Alloy>
+	<NavigationWindow id="navWindow">
+		<Window class="defaultWindow" title="Firebase">
+			<ImageView id="firebaseLogo"></ImageView>
+			<TextField id="email" class="defaultTextField"></TextField>
+			<TextField id="password" class="defaultTextField" onReturn="onLoginClick"></TextField>
+			<Button id="btnLogin" onClick="onLoginClick">Login</Button>
+			<View id="darkOverlay">
+				<ActivityIndicator id="activIndicator"/>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>

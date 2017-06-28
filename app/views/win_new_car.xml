@@ -1,0 +1,9 @@
+<Alloy>
+   <Window id="defaultWindow" class="defaultWindow verticalLayout" title="New Car">
+
+      <TextField id="txtbrand" class="defaultTextField"></TextField>
+      <TextField id="txtDescription" class="defaultTextField"></TextField>
+      <Button id="btnSubmit" onClick="onSubmitNewCar">Create</Button>
+
+   </Window>
+</Alloy>

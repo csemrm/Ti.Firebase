@@ -1,0 +1,23 @@
+<Alloy>
+   <Window id="defaultWindow" class="defaultWindow" title="Cars">
+
+      <RightNavButton>
+         <Button onClick="onNewCarClick" systemButton="Ti.UI.iOS.SystemButton.ADD" />
+      </RightNavButton>
+
+       <ListView id="listCars" defaultItemTemplate="templateDefault" onEditaction="onDeleteCar">
+          <Templates>
+              <ItemTemplate id="templateDefault" name="templateDefault">
+                 <View id="vwContent" class="horizontalLayout">
+                     <ImageView id="imgCar" bindId="imgCar"></ImageView>
+                     <View id="vwDescription" class="verticalLayout">
+                        <Label bindId="lblTitle" id="lblTitle" class="label18 labelBlack top10" />
+                        <Label bindId="lblSubtitle" id="lblSubtitle" class="label15 labelGray" />
+                     </View>
+                 </View>
+              </ItemTemplate>
+          </Templates>
+          <ListSection id="rowCars"></ListSection>
+       </ListView>
+   </Window>
+</Alloy>

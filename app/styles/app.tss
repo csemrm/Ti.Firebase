@@ -1,0 +1,62 @@
+/******** WINDOW *******/
+'.defaultWindow': {
+	barColor: '#4C99EA',
+	titleAttributes: {
+    	color: '#fff'
+	},
+	navTintColor: '#fff',
+	backButtonTitle: '',
+	backgroundColor:"#fff",
+	translucent: false,
+	extendEdges: Ti.UI.EXTEND_EDGE_TOP,
+}
+
+/******** LAYOUTS *******/
+'.verticalLayout':{
+	layout: "vertical"
+}
+
+'.horizontalLayout':{
+	layout: "horizontal",
+}
+
+".top10":{
+	top:10
+}
+
+/******** LABELS *******/
+'.label18':{
+	font: {
+		fontSize: 18
+	}
+}
+
+'.label15':{
+	font: {
+		fontSize: 15
+	}
+}
+
+'.labelBlack':{
+	color: '#000'
+}
+
+'.labelGray':{
+	color: "#666666"
+}
+
+/******** TEXT FIELDS *******/
+".defaultTextField": {
+	width: '90%',
+	height: 50,
+	style: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderWidth: 1,
+	borderRadius: 5,
+	borderColor: "#cccccc",
+	leftButtonPadding: 20,
+}
+
+/******** BUTTONS *******/
+"Button": {
+	color: '#4C99EA'
+}
