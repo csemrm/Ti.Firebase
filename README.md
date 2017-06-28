@@ -26,10 +26,11 @@ Yes, you've read it right. We thought that just shipping a module would not be e
 # Authentication
 The example app checks if the provided user exists or not. If the user already exists he will be automatically logged in. If it doesn't Firebase will automatically and transparently create it in the backend for you.
 
+![alt text](https://i2.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-15-59-51.gif)
 
 Meanwhile in the Firebase Console...
 
-
+![alt text](https://i2.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-15-50-42.gif)
 
 # Real Time Database
 Ti.Firebase creates an observer on the 'Cars' table to observe every single change in the Database. In the following example we have created some data directly through Firebase Console. Check out how quickly the app sees the changes in the database. The same happens if you delete something the database. ?
