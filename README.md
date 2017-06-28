@@ -1,6 +1,8 @@
 # Ti.Firebase
 Ti.Firebase is an iOS Hyperloop wrapper of the Firebase SDK.
 
+![alt text](https://loopmodules.com/wp-content/uploads/edd/2016/08/Firebase.png)
+
 It provides the following functionalities:
 
   * Authentication
@@ -35,9 +37,13 @@ Meanwhile in the Firebase Console...
 # Real Time Database
 Ti.Firebase creates an observer on the 'Cars' table to observe every single change in the Database. In the following example we have created some data directly through Firebase Console. Check out how quickly the app sees the changes in the database. The same happens if you delete something the database. ?
 
+![alt text](https://i2.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-16-07-19.gif)
 
 With Ti.Firebase you can also create and delete data through the app.
 
+![alt text](https://i2.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-16-22-01.gif)
+
+![alt text](https://i0.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-16-24-48.gif)
 
 # Firebase Cloud Messaging (Push Notifications)
 With Ti.Firebase you're able to send Push Notification messages through Firebase Console.
@@ -45,8 +51,11 @@ With Ti.Firebase you're able to send Push Notification messages through Firebase
 Google is pushing developers to start using FCM instead of the usual GCM to send Push Notifications.
 Firebase Cloud Messaging (FCM) is the new version of GCM. It inherits the reliable and scalable GCM infrastructure, plus new features! More details in their FAQ.
 
+![alt text](https://i1.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/Sep.-23-2016-16-29-48.gif)
+
 # On a real device
 
+![alt text](https://i0.wp.com/loopmodules.com/wp-content/uploads/edd/2016/09/IMG_2095.png)
 
 # GENERAL INSTRUCTIONS
 
