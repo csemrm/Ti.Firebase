@@ -1,5 +1,5 @@
-var FIRApp = require('FirebaseAnalytics/FIRApp'),
-    FIROptions = require('FirebaseAnalytics/FIROptions');
+var FIRApp = require('FirebaseCore/FIRApp'),
+    FIROptions = require('FirebaseCore/FIROptions');
 
 exports.configure = function() {
    FIRApp.configure();
